@@ -1,9 +1,15 @@
-body {
-  background-color: black;
-}
+/* all elemeants are given m/p 0 and the box-sizing means m/p its included in size */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing:border-box ;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image:linear-gradient(to bottom, #bdd1c5,#eecc8c);
   }
