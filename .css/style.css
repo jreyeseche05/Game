@@ -70,3 +70,7 @@
   position: absolute;
 }
 
+
+.card .back-face{
+  transform: rotateY(-180deg);
+}
