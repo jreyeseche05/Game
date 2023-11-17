@@ -58,7 +58,7 @@
   background-color: #f3dcdc;
   border-radius: 25px 0;
   box-shadow: 0 3px 10px #f5bccba;
-  transition: transform 1s;
+  transition: transform 2s;
   backface-visibility: hidden;
   pointer-events: none;
   user-select: none;
@@ -72,16 +72,16 @@
 }
 
 
-.card:hover .back-face{
+.card .back-face{
   transform: rotateY(-180deg);
 }
 
-.card:hover .back-face{
+.card.reveal .back-face{
   transform: rotateY(0);
 
 }
 
-.card.flip .front-face{
+.card.reveal .front-face{
   transform: rotateY(180deg);
 }
 
