@@ -26,6 +26,13 @@
     padding: 25px;
     box-shadow:10px 8px 6px #e3aadd;
     display: relative;
-  
   }
+
+.cards,
+.card,
+.face {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
