@@ -43,3 +43,10 @@
   justify-content: space-between;
 }
 
+.cards .card{
+  height: calc(100% / 4 -10px);
+  width: calc(100% / 4 -10px);
+  position: relative;
+  perspective: 800px;
+  transform-style: preserve-3d;
+}
