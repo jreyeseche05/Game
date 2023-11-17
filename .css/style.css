@@ -5,14 +5,6 @@
     padding: 0;
     box-sizing:border-box ;
   }
-.myButton {
-  background-color: #7949ff;
-  border: none;
-  padding: 15px 32px;
-  color: white;
-  font-size: 16px;
-  border-radius: 32px;
-}
 
 /* styled body*/
   body {
@@ -25,7 +17,6 @@
 /* gave max width to img side */
   .card .back-face img{
     max-width: 80px;
-    
   }
 
   .container {
@@ -78,7 +69,6 @@
   width: 100px;
   height: 100px;
   position: absolute;
-  overflow: hidden;
 }
 
 
