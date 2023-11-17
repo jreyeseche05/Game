@@ -12,13 +12,6 @@
   color: white;
   font-size: 16px;
   border-radius: 32px;
-
-
-
-
-
-  display: flex;
-
 }
 
 /* styled body*/
@@ -31,7 +24,8 @@
   }
 /* gave max width to img side */
   .card .back-face img{
-    max-width: 60px;
+    max-width: 80px;
+    
   }
 
   .container {
@@ -84,6 +78,7 @@
   width: 100px;
   height: 100px;
   position: absolute;
+  overflow: hidden;
 }
 
 
