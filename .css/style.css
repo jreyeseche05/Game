@@ -71,11 +71,11 @@
 }
 
 
-.card .back-face{
+.card:hover .back-face{
   transform: rotateY(-180deg);
 }
 
-.card.flip .back-face{
+.card:hover .back-face{
   transform: rotateY(0);
 
 }
