@@ -62,3 +62,11 @@
   pointer-events: none;
   user-select: none;
 }
+
+.front-face{
+  border: black;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
