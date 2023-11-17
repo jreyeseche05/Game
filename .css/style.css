@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing:border-box ;
   }
-
+/* styled body*/
   body {
     display: flex;
     align-items: center;
@@ -13,3 +13,8 @@
     min-height: 100vh;
     background-image:linear-gradient(to bottom, #bdd1c5,#eecc8c);
   }
+
+  .card .back-face img{
+    max-width: 80px;
+  }
+
