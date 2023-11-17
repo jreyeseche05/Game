@@ -50,3 +50,15 @@
   perspective: 800px;
   transform-style: preserve-3d;
 }
+
+.cards .card .face {
+  width: 100px;
+  height: 100px;
+  background-color: #f3dcdc;
+  border-radius: 25px 0;
+  box-shadow: 0 3px 10px #f5bccba;
+  transition: transform 1s;
+  backface-visibility: hidden;
+  pointer-events: none;
+  user-select: none;
+}
