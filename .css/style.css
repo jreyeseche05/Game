@@ -13,8 +13,19 @@
     min-height: 100vh;
     background-image:linear-gradient(to bottom, #bdd1c5,#eecc8c);
   }
-
+/* gave max width to img side */
   .card .back-face img{
     max-width: 80px;
+  }
+
+  .container {
+    height: 500px;
+    width: 500px;
+    background-image:linear-gradient(to right, #c8a8e9, #c3c7f3);
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow:10px 8px 6px #e3aadd;
+    display: relative;
+  
   }
 
