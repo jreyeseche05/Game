@@ -1,3 +1,5 @@
+alert('Hello')
+
 const cards = document.querySelectorAll('.card');
 let cardOne,cardTwo;
 
